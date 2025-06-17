@@ -29,6 +29,7 @@ response = client.models.generate_content(
 
 if verbose:
     print(f"User prompt: {user_prompt}")
+    print()
 
 print(response.text)
 
